@@ -9,6 +9,8 @@ cd $private:current_location
 $PSDefaultParameterValues["Out-File:Encoding"] = "UTF8"
 # starship
 Invoke-Expression (&starship init powershell)
+# LESSCHARSET
+$env:LESSCHARSET = "utf-8"
 
 # 导出其他脚本
 . ./function.ps1
