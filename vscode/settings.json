@@ -1,0 +1,113 @@
+{
+    /* 字体设置 */
+    "editor.fontFamily": "等距更纱黑体 SC",
+    "editor.fontWeight": "500",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.tabSize": 4,
+    /* 字体设置 end */
+    /* 光标设置 */
+    "editor.cursorStyle": "block",
+    /* 光标设置 end */
+    /* 编辑器设置 */
+    "editor.rulers": [
+        4,
+        8,
+        80,
+        120
+    ],
+    "editor.renderWhitespace": "boundary",
+    "editor.renderLineHighlight": "line",
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 80,
+    "editor.wrappingIndent": "indent",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.find.autoFindInSelection": "multiline",
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?、，。？！“”‘’；：（）「」【】〔〕『』〖〗",
+    /* 编辑器设置 end */
+    /* 文件设置 */
+    "files.autoSave": "onFocusChange",
+    "files.eol": "\n",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.hotExit": "off",
+    /* 文件设置 end */
+    /* 工作区设置 */
+    "workbench.startupEditor": "none",
+    /* 工作区设置 end */
+    /* 浏览区设置 */
+    "explorer.confirmDragAndDrop": false,
+    /* 浏览区设置 end */
+    /* 调试设置 */
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.internalConsoleOptions": "openOnFirstSessionStart",
+    "debug.toolBarLocation": "docked",
+    "explorer.confirmDelete": false,
+    /* 调试设置 end */
+    /* 终端设置 */
+    /* 终端设置 end */
+    /* C++ 设置 */
+    "C_Cpp.clang_format_style": "LLVM",
+    /* C++ 设置 end */
+    /* Rust 设置 */
+    // 补全函数时不自动添加括号
+    "rust-analyzer.completion.addCallParenthesis": false,
+    /* Rust 设置 end */
+    // 特定插件设置
+    /* aaron-bond.better-comments 设置 */
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#AAAAAA",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "fix",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        }
+    ],
+    /* aaron-bond.better-comments 设置 end */
+    /* tabnine 设置 */
+    "tabnine.disable_file_regex": [
+        "[.]rst$",
+        "[.]md$",
+        "[.]txt$",
+    ],
+    /* tabnine 设置 end */
+    /* gitlens 设置 */
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
+    /* gitlens 设置 end */
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
